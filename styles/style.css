@@ -1,0 +1,72 @@
+/* Common style-sheet */
+.mulish-400 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mulish-700 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mulish-800 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.color-orange {
+    color: #FF5400;
+}
+
+html {
+    font-size: 36px;
+}
+
+body {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 55px;
+}
+
+/* navigation bar style sheet */
+.website-name-logo {
+    display: flex;
+    align-items: center;
+}
+
+.website-name-logo #website-name {
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navigation-panel > .nav-bar > ul {
+    display: flex;
+    align-items: center;
+    font-size: 0.5rem;
+    list-style: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-bar p {
+    margin-left: 20px;
+}
+
+.navigation-panel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
