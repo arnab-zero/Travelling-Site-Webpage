@@ -1,177 +1,233 @@
 /* Common style-sheet */
 .mulish-400 {
-    font-family: "Mulish", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .mulish-700 {
-    font-family: "Mulish", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .mulish-800 {
-    font-family: "Mulish", sans-serif;
-    font-weight: 800;
-    font-style: normal;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 .color-orange {
-    color: #FF5400;
+  color: #ff5400;
 }
 
 html {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 body {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-top: 55px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 55px;
 }
 
 /* navigation bar style sheet */
 .website-name-logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .website-name-logo #website-name {
-    font-size: 1rem;
-    text-decoration: none;
-    margin-left: 10px;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-left: 10px;
 }
 
 .navigation-panel > .nav-bar > ul {
-    display: flex;
-    align-items: center;
-    font-size: 0.5rem;
-    list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 0.5rem;
+  list-style: none;
 }
 
 .nav-bar a {
-    text-decoration: none;
-    font-size: 18px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .nav-bar p {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .navigation-panel {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
-
 
 /* Explore your travel section */
 .explore-travel-banner {
-    border-radius: 16px;
-    height: 500px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../assets/Images/explore-banner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
+  border-radius: 16px;
+  height: 500px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../assets/Images/explore-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
 #explore-travel-banner-title {
-    font-size: 1.75rem;
-    color: white;
-    margin-bottom: 25px;
+  font-size: 1.75rem;
+  color: white;
+  margin-bottom: 25px;
 }
 
 #explore-travel-banner-description {
-    font-size: 0.5rem;
-    color: white;
-    max-width: 60%;
-    margin-top: 0px;
-    margin-bottom: 45px;
-    text-align: center;
+  font-size: 0.5rem;
+  color: white;
+  max-width: 60%;
+  margin-top: 0px;
+  margin-bottom: 45px;
+  text-align: center;
 }
 
 .searchbox {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 55%;
-    row-gap: 10px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-    padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 55%;
+  row-gap: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
 }
 
-.searchbox select, .searchbox input {
-    width: 12em;
-    height: 50px;
-    margin-right: 25px;
-    border-radius: 10px;
-    border: none;
+.searchbox select,
+.searchbox input {
+  width: 12em;
+  height: 50px;
+  margin-right: 25px;
+  border-radius: 10px;
+  border: none;
 }
 
-.searchbox select, .searchbox option, .searchbox input {
-    font-family: "Mulish", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgba(19, 19, 24, 0.50);
+.searchbox select,
+.searchbox option,
+.searchbox input {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(19, 19, 24, 0.5);
 }
 
 .find-now-btn input {
-    background-color: #FF5400;
-    color: white;
-    font-weight: 700;
+  background-color: #ff5400;
+  color: white;
+  font-weight: 700;
 }
 
-
 /* Popular tours section */
+#popular-tour-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+}
+
+.text-part #read-more-btn {
+  font-size: 20px;
+  background-color: #ff5400;
+  color: white;
+  padding: 10px 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.popular-tour-section li {
+  margin-bottom: 10px;
+  max-width: 90%;
+}
+
+.popular-tour-section {
+  display: flex;
+  justify-content: center;
+  column-gap: 5%;
+  margin-bottom: 100px;
+}
 
 
 
 /* media query for viewport size < 600px */
 @media screen and (max-width: 600px) {
+  html {
+    font-size: 20px;
+  }
+
+  .navigation-panel {
+    display: block;
+  }
+
+  .nav-bar > .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .explore-travel-banner {
+    width: 100vw;
+    background-position: center;
+    height: 485px;
+  }
+
+  #explore-travel-banner-title {
+    margin-bottom: 20px;
+  }
+
+  #explore-travel-banner-description {
+    margin-bottom: 30px;
+  }
+
+  .searchbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+  }
+
+  .searchbox select,
+  .searchbox input {
+    width: 100%;
+  }
+
+  /* Our popular tour section */
+  #popular-tour-heading {
+    font-size: 20px;
+  }
+
+  #popular-tour-description {
+    font-size: 14px;
+  }
+
+  .image-part img {
+    width: 100%;
+  }
+
+  #read-more-btn {
+    margin-bottom: 25px;
+  }
+
+  .popular-tour-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 5%;
+  }
 
 
-    html {
-        font-size: 20px;
-    }
-    
-    .navigation-panel {
-        display: block;
-    }
-
-    .explore-travel-banner {
-        width: 100%;
-        background-position: center;
-        height: 485px;
-    }
-
-    #explore-travel-banner-title {
-        margin-bottom: 20px;
-    }
-
-    #explore-travel-banner-description {
-        margin-bottom: 30px;
-    }
-
-    .searchbox {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 60%;
-    }
-
-    .searchbox select, .searchbox input {
-        width: 100%;
-    }
-
-    
 }
-
-
-
