@@ -162,7 +162,184 @@ body {
   margin-bottom: 100px;
 }
 
+/* Choose you destination section */
+.destination-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#destination-banner-header {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#destination-banner-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  text-align: center;
+  width: 60%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.image-gallery {
+  font-size: 28px;
+}
+
+.gallery-row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gallery-row-2 {
+  display: grid;
+  grid-template-columns: 3fr 4fr 2fr;
+}
+
+.gallery-row-3 {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.image-gallery .mulish-800 {
+  color: white;
+}
+
+#maldives {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/Rectangle\ 5.png"), lightgray 50% / cover no-repeat;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#indonesia {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/Rectangle\ 8.png"), lightgray 50% / cover no-repeat;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#srilanka {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#north-america {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/Rectangle\ 7.png"), lightgray 50% / cover no-repeat;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#kashmir {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/Rectangle\ 9.png"), lightgray 50% / cover no-repeat;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bangladesh {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bandarban {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-row-1,
+.gallery-row-2,
+.gallery-row-3 {
+  column-gap: 10px;
+  margin-bottom: 10px;
+  flex-shrink: 1;
+}
 
 /* media query for viewport size < 600px */
 @media screen and (max-width: 600px) {
@@ -229,5 +406,26 @@ body {
     column-gap: 5%;
   }
 
+  /* choose your destination section */
+  #destination-banner-header {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  #destination-banner-description {
+    font-size: 14px;
+    margin-bottom: 16px;
+    width: 80%;
+  }
+
+  .gallery-row-1, .gallery-row-2, .gallery-row-3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #maldives, #indonesia, #srilanka, #north-america, #kashmir, #bangladesh, #bandarban {
+    height: 190px;
+  }
 
 }
