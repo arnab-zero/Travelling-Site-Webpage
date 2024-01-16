@@ -162,7 +162,7 @@ header, main {
   margin-bottom: 100px;
 }
 
-/* Choose you destination section */
+/* Choose your destination section */
 .destination-banner {
   margin-bottom: 100px;
 }
@@ -343,6 +343,87 @@ header, main {
   column-gap: 10px;
   margin-bottom: 10px;
   flex-shrink: 1;
+}
+
+
+/* Why choose us section */
+.advantages {
+    margin-bottom: 100px;
+}
+
+#advantages-header {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#advantages-description {
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 0px;
+    margin-bottom: 25px;
+    max-width: 50%;
+    text-align: center;
+}
+
+.advantage-title {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    color: #131318;
+    font-size: 24px;
+}
+
+.description {
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+max-width:  80%;
+
+}
+
+.second-row .description {
+    max-width: 80%;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.second-row {
+    display: flex;
+    justify-content: center;
+}
+
+.handpicked-hotels {
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 10px;
+}
+
+.world-class-service {
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 10px;
+}
+
+.best-price-guarantee {
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+width: 50%;
+padding: 10px;
+}
+
+.narrative {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* newsletter section */
@@ -588,6 +669,25 @@ footer > .website-name-logo a {
     height: 190px;
   }
 
+  /* Why choose us section */
+.first-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.best-price-guarantee {
+    width: 100%;
+}
+
+#advantages-header {
+    font-size: 20px;
+}
+
+#advantages-description {
+    font-size: 14px;
+}
+
+
   /* newsletter section */
   #form-heading, #subscribe-btn {
     font-size: 20px;
@@ -607,6 +707,14 @@ footer > .website-name-logo a {
 .newletter-section {
     display: flex;
     flex-direction: column;
+}
+
+.advantage-title {
+    font-size: 20px;
+}
+
+.description {
+    font-size: 14px;
 }
 
 }
