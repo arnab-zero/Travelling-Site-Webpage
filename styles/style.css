@@ -25,7 +25,8 @@ html {
   font-size: 36px;
 }
 
-header, main {
+header,
+main {
   margin-left: 5vw;
   margin-right: 5vw;
   margin-top: 55px;
@@ -345,85 +346,201 @@ header, main {
   flex-shrink: 1;
 }
 
+/* upcoming events section */
+#upcoming-events-header {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#upcoming-events-description {
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+#upcoming-events-header-two {
+  font-size: 30px;
+  color: #5a5a5d;
+}
+
+#boisabi {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/boisabi-643693f7b35cf-6437d7b0b69da.jpg");
+}
+
+#losar {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/losar-festival.jpg");
+}
+
+
+#krakatoa {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/krakatoa-fest.jpg");
+}
+
+
+#bottlerock {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/bottlerock.jpg");
+}
+
+#balloon-fest {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../assets/Images/balloon-fest.jpg");
+}
+
+
+.upcoming-events .events-image {
+  height: 300px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: white;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  margin-bottom: 5px;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 5px;
+  margin-bottom: 5px;
+}
+
+.row-3 {
+  display: grid;
+}
+
+
+#upcoming-events-description {
+  max-width: 75%;
+}
+
+.upcoming-events {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.upcoming-events-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* Why choose us section */
 .advantages {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 #advantages-header {
-    font-size: 40px;
-    margin-bottom: 15px;
+  font-size: 40px;
+  margin-bottom: 15px;
 }
 
 #advantages-description {
-    font-size: 16px;
-    color: rgba(19, 19, 24, 0.70);
-    margin-top: 0px;
-    margin-bottom: 25px;
-    max-width: 50%;
-    text-align: center;
+  font-size: 16px;
+  color: rgba(19, 19, 24, 0.7);
+  margin-top: 0px;
+  margin-bottom: 25px;
+  max-width: 50%;
+  text-align: center;
 }
 
 .advantage-title {
-    font-family: "Mulish", sans-serif;
-    font-weight: 800;
-    color: #131318;
-    font-size: 24px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  color: #131318;
+  font-size: 24px;
 }
 
 .description {
-    color: #5A5A5D;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
-max-width:  80%;
-
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 80%;
 }
 
 .second-row .description {
-    max-width: 80%;
+  max-width: 80%;
 }
 
 .first-row {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 10px;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin-bottom: 10px;
 }
 
 .second-row {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .handpicked-hotels {
-    border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-padding: 10px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 10px;
 }
 
 .world-class-service {
-    border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
-padding: 10px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 10px;
 }
 
 .best-price-guarantee {
-    border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
-width: 50%;
-padding: 10px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  width: 50%;
+  padding: 10px;
 }
 
 .narrative {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* newsletter section */
@@ -453,7 +570,7 @@ padding: 10px;
 }
 
 hr {
-    border: 1px dashed peachpuff;
+  border: 1px dashed peachpuff;
 }
 
 #subscribe-btn {
@@ -483,7 +600,7 @@ hr {
 }
 
 #newsletter-form {
-  border: 2px solid #FF5400;
+  border: 2px solid #ff5400;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -491,88 +608,87 @@ hr {
 }
 
 .text-wrapper {
-    background-color: #FF5400;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 10px;
-    font-size: 200px;
-    width: 35%;
-    height: 25%;
-    transform: translateX(90%) translateY(90%)  rotate(-45deg) translateX(10%) rotate(5deg) translateY(-5%);
+  background-color: #ff5400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 200px;
+  width: 35%;
+  height: 25%;
+  transform: translateX(90%) translateY(90%) rotate(-45deg) translateX(10%)
+    rotate(5deg) translateY(-5%);
 }
 
 .form-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../assets/Images/Rectangle\ 8\ \(1\).png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/Images/Rectangle\ 8\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
-
 
 /* footer section */
 footer {
-    margin-left: 0px;
-    margin-right: 0px;
-    display: flex;
-    justify-content: center;
-    background: rgba(19, 19, 24, 0.05);
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+  background: rgba(19, 19, 24, 0.05);
 }
 
 .website-name-logo a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer > .website-name-logo a {
-    font-size: 32px;
-    margin-top: 80px;
-    margin-bottom: 0px;
+  font-size: 32px;
+  margin-top: 80px;
+  margin-bottom: 0px;
 }
 
 #website-footer-description {
-    font-size: 16px;
-    color: #5A5A5D;
-    margin-top: 0px;
-    margin-bottom: 35px;
+  font-size: 16px;
+  color: #5a5a5d;
+  margin-top: 0px;
+  margin-bottom: 35px;
 }
 
 .social-media-logo img {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 .social-media-logo {
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
 }
 
 #copyright {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 100px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .footer-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid peru; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid peru; */
 }
 
 #website-footer-description {
-    max-width: 40%;
-    text-align: center;
+  max-width: 40%;
+  text-align: center;
 }
-
 
 /* media query for viewport size < 600px */
 @media screen and (max-width: 600px) {
@@ -593,6 +709,7 @@ footer > .website-name-logo a {
     width: 100vw;
     background-position: center;
     height: 485px;
+    margin-bottom: 10px;
   }
 
   #explore-travel-banner-title {
@@ -637,6 +754,7 @@ footer > .website-name-logo a {
     flex-direction: column;
     justify-content: center;
     column-gap: 5%;
+    margin-bottom: 25px;
   }
 
   /* choose your destination section */
@@ -669,52 +787,97 @@ footer > .website-name-logo a {
     height: 190px;
   }
 
+  .destination-banner {
+    margin-bottom: 25px;
+  }
+
   /* Why choose us section */
-.first-row {
+  .first-row {
     display: flex;
     flex-direction: column;
-}
+  }
 
-.best-price-guarantee {
+  .best-price-guarantee {
     width: 100%;
-}
+  }
 
-#advantages-header {
+  #advantages-header {
     font-size: 20px;
-}
+  }
 
-#advantages-description {
+  #advantages-description {
     font-size: 14px;
-}
-
+    min-width: 80%;
+  }
 
   /* newsletter section */
-  #form-heading, #subscribe-btn {
+  #form-heading,
+  #subscribe-btn {
     font-size: 20px;
   }
   #form-description {
     font-size: 14px;
   }
 
-  #name-input, #email-input {
+  #name-input,
+  #email-input {
     font-size: 16px;
   }
 
-.text-wrapper {
+  .text-wrapper {
     visibility: hidden;
-}
+  }
 
-.newletter-section {
+  .newletter-section {
     display: flex;
     flex-direction: column;
-}
+    margin-bottom: 50px;
+  }
 
-.advantage-title {
+  .advantage-title {
     font-size: 20px;
-}
+  }
 
-.description {
+  .description {
     font-size: 14px;
-}
+  }
 
+  /* upcoming events section */
+  #upcoming-events-header {
+    font-size: 24px;
+  }
+
+  #upcoming-events-description {
+    font-size: 16px;
+    max-width: 90%;
+    margin-bottom: 10px;
+  }
+
+  #upcoming-events-header-two {
+    font-size: 20px;
+  }
+
+  .row-1, .row-2, .row-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .upcoming-events .events-image {
+    margin-bottom: 10px;
+    max-height: 200px;
+  }
+
+  .upcoming-events {
+    margin-bottom: 25px;
+  }
+
+  /* advantage section */
+  .advantages {
+    margin-bottom: 25px;
+  }
+
+  /* footer section */
+  #website-footer-description {
+    min-width: 85%;
+  }
 }
